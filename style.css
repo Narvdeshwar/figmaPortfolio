@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10;
+}
+
+.logoCircle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #a53dff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.logoText {
+  font: size 16px;
+  font-weight: 600;
+  color: #2b2b2b;
+  margin-left: 10px;
+}
+
+.navbar-right {
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+}
+
+.navbar-right li {
+  display: inline-block;
+}
+
+.navbar-right > li > a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 400;
+  transition: color 0.5s ease-in;
+}
+
+.activeLink {
+  background-color: #a53dff;
+  padding: 13px 15px 13px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.hero-section {
+  background-color: whitesmoke;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  padding: 4vh;
+}
+
+.heroLeft {
+  width: 580px;
+  height: 636px;
+  margin-top: 50px;
+}
+.heroLeft > h1 {
+  font-size: 72px;
+  font-weight: 600;
+  color: #132238;
+  line-height: 84px;
+}
+.heroLeft > p {
+  size: 18px;
+  line-height: 24px;
+}
+.heroLeft > button {
+  width: 126px;
+  height: 48px;
+  border-radius: 4px;
+  padding: 12px 24px 12px 24px;
+  gap: 12px;
+  background-color: #a53dff;
+  color: #fff;
+  font-weight: 600px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 10px;
+  border: 1px solid #a53dff;
+}
+
+.experienceProjectContainer {
+  display: flex;
+  width: 648px;
+  height: 106px;
+  border: 2px solid #fff;
+  border-radius: 2px solid #fff;
+  gap: 3px;
+  overflow: hidden;
+  margin-top: 21vh;
+}
+
+.experienceProject {
+  width: 218px;
+  height: 104px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  opacity: 0px;
+  background-color: #edd8ff80;
+  overflow: hidden;
+}
+
+.experienceProject > h1 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+}
+.experienceProject > h6 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.heroRight {
+  width: 40vw;
+}
+.imageContainer {
+  width: 536px;
+  height: 636px;
+  border-radius: 25px;
+  background-color: #fff;
+  margin-top: 50px;
+  box-shadow: 0px 24px 116px 0px #2b384c17;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* hero section part 2 */
+.heroSection2 {
+  /* width: 80%; */
+  /* height: fit-content; */
+  /* border-radius: 16px; */
+  background-color: #e8b3b3;
+  margin: auto;
+  box-shadow: 0px 36px 105px 0px #2b384c1a;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 0.5vh;
+}
+
+.heroSectionleft2,
+.heroSectionright2 {
+  width: 45%;
+  background-color: red;
+}
+
+.imageContainer2 {
+  width: 424px;
+  background-color: antiquewhite;
+}
+.images2 {
+  width: 100%;
+}
